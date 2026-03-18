@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Goldsmith | Fine Jewelry & Bullion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="navbar">
+        <div class="logo">JIMMY <span>GOLDSMITH</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jewelry">Jewelry</a>
+            <a href="#bullion">Gold Bars</a>
+            <a href="#contact">Visit Us</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>TIMELESS ELEGANCE</h1>
+        <p>Exquisite handcrafted jewelry and certified investment-grade gold.</p>
+        <button class="btn" onclick="scrollToSection('jewelry')">Explore Collection</button>
+    </section>
+
+    <section id="jewelry">
+        <h2>Fine Jewelry</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500" alt="Gold Necklace">
+                <div class="card-content">
+                    <h3>22K Gold Necklace</h3>
+                    <p>Hand-carved traditional design.</p>
+                    <p class="price">$2,400</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500" alt="Gold Ring">
+                <div class="card-content">
+                    <h3>Diamond Solitaire</h3>
+                    <p>18K Yellow gold band.</p>
+                    <p class="price">$1,850</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1630019051933-e04235a7590d?w=500" alt="Gold Bracelet">
+                <div class="card-content">
+                    <h3>Eternal Bangle</h3>
+                    <p>Solid 24K pure gold.</p>
+                    <p class="price">$3,100</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bullion" class="dark-section">
+        <h2>Investment Gold</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500" alt="Gold Bar">
+                <div class="card-content">
+                    <h3>1oz Gold Bar</h3>
+                    <p>999.9 Purity | Certified</p>
+                    <p class="price">Market Price</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1610375461246-83dfaf51d87e?w=500" alt="Gold Coins">
+                <div class="card-content">
+                    <h3>Gold Sovereign</h3>
+                    <p>Limited Edition Coin</p>
+                    <p class="price">$550</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="info">
+                <h3>Contact Us</h3>
+                <p>📍 777 Luxury Row, Gold District</p>
+                <p>📞 +1 (555) GOLD-JAM</p>
+                <p>⏰ Mon-Sat: 10am - 6pm</p>
+            </div>
+            <form id="contactForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Inquire about a piece..."></textarea>
+                <button type="submit" class="btn">Book Appointment</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
